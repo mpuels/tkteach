@@ -4,6 +4,17 @@ A Super Fast Image Categorization Tool Written in Python
 
 tkteach is a graphical tool that lets you quickly flip through datasets of images to categorize them.
 
+Python virtual env
+----------
+
+To install required packages, run
+
+    $ pipenv install
+
+To activate the Python virtual env, run
+
+    $ pipenv shell
+
 Original features
 ----------
 
