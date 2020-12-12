@@ -1,4 +1,5 @@
-(X) Nothing
-(C) Vehicle
-(D) Truck
-(F) Flag
+(F) Flight
+(O) OOF
+(B) Bounce
+(H) Holding
+(G) GroundBounce
