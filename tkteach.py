@@ -426,8 +426,8 @@ class tkteach:
 
             # Load images in dataset:
             d = self.dataSetsListDir[self.dataSetSelection]
-            self.imageListDir = [os.path.join(d, o) for o in os.listdir(d) if
-                                 os.path.isdir(os.path.join(d, o)) == False]
+            self.imageListDir = sorted([os.path.join(d, o) for o in os.listdir(d)
+                                        if not os.path.isdir(os.path.join(d, o))])
             self.imageListStr = [o.split('\\')[-1] for o in self.imageListDir]
             self.dataSetStatusLabel.config(text='Dataset: ' + str(
                 self.dataSetsListStr[self.dataSetSelection]))
